@@ -13,11 +13,10 @@ int main() {
     printf("Enter the temperature: ");
     scanf("%f", &temperatures[i]);
   }
-  for(int i =0; i < number; i ++){
-    printf("%.1f ", temperatures[number-1-i]);
+  for (int i = 0; i < number; i++) {
+    printf("%.1f ", temperatures[number - 1 - i]);
   }
   printf("\n");
-
 
   free(temperatures);
 
